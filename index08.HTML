@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Seção 04 - Aula 08</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Seção 04 - Aula 08</h1>
+
+        <script>
+          function c (frase){
+            console.log(frase);
+          }
+
+          //OPERASORES ARITMÉTICOS
+
+          /*
+          + adição
+          - subtração
+          * multiplicação
+          / divisão
+
+          ///operadores aritméticos abreviados
+          +=
+          -=
+          *=
+          /=
+
+ */
+
+       c(7/0); //INFINITY
+       c("67" / 3); //convete a string em um numero inteiro e dividi
+       c("geek" * 3); //NaN (Not a Number)
+       c(0.1 + 0.8);
+
+       var num = 53;
+       c(num.toString()); //vira uma string
+
+       c(18.826246625.toFixed(4));//limitar os numeros depois da virgula
+
+       c(Math.PI);//MOSTRA QUANTO VALE 'PI'
+
+       c(Math.pow(4, 3)); //4 elevado 3
+ 
+       c(Math.sqrt(100)); //raiz quadrada 
+
+       c(typeof(47)); //descubrir o tipo do elemento
+       c(typeof('talison'));
+
+       c(Number.isInteger(39));// PARA SABER SE O VALOR É INTEIRO
+       c(Number.isInteger('talison'));
+
+       //CONVERSÃO BINÁRIA
+       var valor = 19
+       c(valor.toString(2));
+
+
+        </script>
+    </body>
+</html>

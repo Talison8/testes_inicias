@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Seção 04</title>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     </head>
+
+    <body>
+        <h1>seção 04 - aula 03</h1>
+
+        <script>
+           var idade = prompt("qual sua idade?")
+
+           if(idade >= 18){
+            console.log("Maior de idade");
+           }else{
+           console.log ("Menor de idade");
+           }
+
+           if(idade <= 14){
+            console.log('criança');
+           }else if(idade > 14 && idade < 18){
+            console.log('adolecente');
+           }else{
+            console.log('adulto');
+           }
+
+           //dica (verifica valor)
+           if(1 =="1"){
+            console.log('sim, 1 ="1"');
+           }else{
+            console.log("nao");
+        }
+
+        var valor = 30;
+        var valors = 30;
+
+        ////dica (vericar valor e tipo de dado)
+        if(valor === valors){
+            console.log('sim, valor === valors');
+           }else{
+            console.log("nao");
+           }
+
+        
+           var sexo = prompt("qual seu sexo?")
+
+           switch(sexo){
+            case "m":
+                console.log("masculino");
+                break;
+            case 'f':
+                console.log("feminino");
+                break;
+            default:
+                console.log("desconcido");
+                break;
+
+           }
+
+
+        
+           var masculino;
+
+           if( sexo === "m" ){
+            masculino=true;
+           }else{
+            masculino=false;
+           }
+           console.log(masculino);
+
+            ///siplificando ^^
+            var feminino = sexo === "f";
+            console.log(feminino);
+
+
+
+        </script>
+    </body>
+
+</html>
